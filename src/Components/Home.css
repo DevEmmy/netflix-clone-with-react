@@ -1,0 +1,193 @@
+header img{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 160px;
+    z-index: 100;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/71cfa010-f8dd-4298-a94d-1ae5034a857c/dee10ffc-8674-4684-9927-ec38620d7954/NG-en-20210425-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    object-fit: contain;
+    background-size: cover;
+}
+
+.login_screen--fade{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%,
+    );
+}
+
+.btn-1{
+    background: rgb(226, 20, 20);
+    color:#ffffff;
+    padding: 8px 20px ;
+    border-radius: 4px;
+    z-index: 200;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.text{
+    text-align: center;
+    z-index: 200;
+    color: #ffffff;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-weight: 200;
+    font-family: arial;
+    width:50%;
+}
+
+.text h1{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.text h3{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.text h4{
+    font-weight: 200;
+}
+
+form{
+    z-index: 200;
+    display: flex;
+}
+
+form > input{
+    padding: 17px 20px;
+    width: 70%;
+}
+
+input:focus{
+    outline: none;
+}
+
+form > button{
+    width: 30%;
+    background: rgb(255, 20, 20);
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    border: none;
+}
+
+button:focus{
+    outline: none;
+}
+
+.fa{
+    font-size: 28px;
+}
+
+.authpage{
+    width: 35%;
+    height: auto;
+    padding: 50px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    color: #ffffff;
+    position: absolute;
+    top: 100px;
+    left: 30%;
+}
+
+.authpage > form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.authpage > form > input{
+    padding: 16px 20px;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 100%; 
+}
+
+.authpage > form > button{
+    border: none;
+    border-radius: 7px;
+    padding: 10px 50px;
+    color: #ffffff;
+    font-weight: bold;
+    background: rgb(255, 20, 20);
+    width: 100%;
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.authpage h4{
+    font-weight: 200;
+}
+
+.highlight{
+    color: rgb(120,120,120);
+}
+
+.u{
+    cursor: pointer;
+}
+
+.u:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+@media screen  and (max-width:868px) {
+    .text{
+        width: 90%;
+        left: 5%;
+        top: 17%;
+    }
+
+    .text h1{
+        font-size: 38px;
+    }
+
+    form > input{
+        padding: 10px 10px;
+    }
+
+    form > button{
+        font-size: 15px;
+    } 
+
+    .fa{
+        font-size: 14px;
+    }
+
+    header img{
+        width: 25%;
+    }
+
+    .btn-1{
+        font-size: 15px;
+    }
+
+    .authpage{
+        width: 90%;
+        left: 5%;
+    }
+
+}

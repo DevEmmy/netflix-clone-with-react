@@ -1,0 +1,8 @@
+{ 
+    "categories":[{"cat":"NETFLIX ORGINALS", "id":1}, {"cat":"TRENDING", "id":2}, {"cat":"TOP RATED", "id":3},
+    {"cat":"HORROR MOVIES", "id":4},
+    {"cat":"ROMANCE MOVIES", "id":5},
+    {"cat":"ACTION MOVIES", "id":6},
+    {"cat":"DOCUMENTARY MOVIES", "id":7},
+    {"cat":"COMEDY MOVIES", "id":8}]
+}
